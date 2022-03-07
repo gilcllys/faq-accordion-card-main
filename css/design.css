@@ -21,10 +21,17 @@ body{
     background-color: white;
     border: 1px solid black;
     text-align: center;
+    width: fit-content;
+    height: fit-content;
  }
 /* Question*/
 
-/* Answers*/
+/* Answers
 .ans {
+    display:none;
+}*/
+
+/* show the answers*/
+.showup{
     display: none;
 }

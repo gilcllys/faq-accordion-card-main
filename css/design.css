@@ -5,27 +5,61 @@
 }
 body{
     background-color:hsl(240, 73%, 65%);
-    
-}
-/* DIV with all elements of the page*/
-.main{ 
-    border: 2px solid yellow;
-    height: 610px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
+    
 }
+/* DIV with all elements of the page*/
+.main{ 
+    border: 3px solid red;
+    display: inline-flex;
+    align-items: center;
+    background-color: white;  
+}
+/*Images*/
+.pictures{
+    display: flex;
+    flex-direction: column;
+}
+#woman{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}
+#box{
+    position: absolute;
+
+}
+
+
 /* DIV with all question and answers of the page*/
 .FAQ{ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 1px solid black;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    width: 500px;
+    height:fit-content;
  }
-/* Question*/
+/*box Question*/
 
+/* Question*/
+button{
+    display: inline-flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+    margin: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width:400px;    
+}
 /* Answers*/
 .ans {
     display:none;

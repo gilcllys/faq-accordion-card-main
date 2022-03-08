@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*DIV with the main subject*/
+.FAQ{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+/*Questions buttons*/
+.qts:hover{
+    color: hsl(14, 88%, 65%);
+}
+.question{
+    font-size: 12px;
+}
+/*Asnwers*/
+.ans{
+    color: hsl(240, 6%, 50%);
+    width: 350PX;
+}
+
+/*font-weigth*/
+.bold{
+    font-weight: 700;
+}
+

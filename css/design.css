@@ -4,9 +4,8 @@
     padding: 0;
 }
 body{
-    background-color:hsl(240, 73%, 65%);
+    background-image: linear-gradient(90deg,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
@@ -41,7 +40,6 @@ body{
 }
 
 #pattern{
-    border: 1px solid black;
     position: relative;
     transform: scale(1.35,1.35);
     top: -212px;
@@ -54,7 +52,6 @@ body{
     left: -20px;
     flex-direction: column;
     background-color: white;
-    border: 1px solid black;
     text-align: justify;
     width: 410px;
     height: 400px;
@@ -66,7 +63,6 @@ h1{
 }
 .box-qts{
     margin: 33px 0 33px 0;
-    border: 1px solid blue;
 }
 /* Question*/
 button{
@@ -75,7 +71,7 @@ button{
     justify-content:space-between;
     background: none;
     border: none;
-    border-bottom: 1px solid rgb(21, 221, 98);
+    border-bottom: 1px solid hsl(240, 5%, 91%);
     width:350px;    
 }
 /* Answers*/
@@ -84,6 +80,9 @@ button{
 }
 
 /* show the answers*/
+
+
 .showup{
     display: block;
 }
+

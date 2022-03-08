@@ -26,12 +26,12 @@ body{
  }
 /* Question*/
 
-/* Answers
+/* Answers*/
 .ans {
     display:none;
-}*/
+}
 
 /* show the answers*/
 .showup{
-    display: none;
+    display: block;
 }

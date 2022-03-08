@@ -14,10 +14,23 @@
 .ans{
     color: hsl(240, 6%, 50%);
     width: 350PX;
+    position: relative;
 }
 
 /*font-weigth*/
 .bold{
     font-weight: 700;
+}
+
+.movement {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes move {
+    from{top:0px;}
+    to {top:5px;}
 }
 

@@ -13,11 +13,11 @@ body{
 }
 /* DIV with all elements of the page*/
 .main{ 
+    position: absolute;
     display: flex;
     height: 500px;
     align-items: center;
-    background-color: white;
-    overflow: hidden;  
+    background-color: white;  
     border-radius: 20px;
 }
 /*Images*/
@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 500px;
+    overflow: hidden;
 }
 #woman{
     position: relative;
@@ -34,8 +35,8 @@ body{
 }
 #box{
     position: absolute;
-    left: 126px;
-    top: 257px;
+    left: -94px;
+    top: 208px;
     z-index: 2;
 }
 

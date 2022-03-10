@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        position: relative;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height:900px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 350px;
+    }
+
+    .pictures{
+        position: absolute;
+        top: 5px;
+        overflow: visible;
+        width: 250px;
+        height: 100px;
+        background-color: none;
+
+    }
+    #woman{
+        position: relative;
+        top: -121px;
+        left: 1px;
+    }
+    #box{
+        position: relative;
+        top: -307px;
+        left: -75px;
+        transform: scale(0.3,0.3);
+    }
+    #pattern{
+        position: relative;
+        top: -558px;
+        left: 22px;
+        width: 200px;
+    }
+
+
+    .FAQ{
+        position: relative;
+        left: 1px;
+        top: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 320px;    
+    }
+    .question{
+        font-size: 8px;
+        overflow: auto;
+    }
+
+    .btn{
+        width: 300px;
+    }
+
+    .ans{
+        font-size: 9px;
+        width: 300px;
+    }
+  }

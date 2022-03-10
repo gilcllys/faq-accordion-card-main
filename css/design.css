@@ -13,7 +13,7 @@ body{
 }
 /* DIV with all elements of the page*/
 .main{ 
-    position: absolute;
+    position: relative;
     display: flex;
     height: 500px;
     align-items: center;
@@ -25,17 +25,18 @@ body{
     display: flex;
     flex-direction: column;
     width: 500px;
+    height: 500px;
     overflow: hidden;
 }
 #woman{
     position: relative;
-    left: -80px; 
-    top: 240px; 
+    left: -78px;
+    top: 55px;
     z-index: 1;  
 }
 #box{
     position: absolute;
-    left: -94px;
+    left: -90px;
     top: 208px;
     z-index: 2;
 }
@@ -43,20 +44,20 @@ body{
 #pattern{
     position: relative;
     transform: scale(1.35,1.35);
-    top: -212px;
+    top: -417px;
     left: -182px;
 }
 
 /* DIV with all question and answers of the page*/
 .FAQ{ 
     position: relative;
-    overflow: auto;
+    
     left: -20px;
     flex-direction: column;
     background-color: white;
     text-align: justify;
     width: 410px;
-    height: 400px;
+    
  }
 /*box Question*/
 h1{
@@ -67,7 +68,10 @@ h1{
     margin: 33px 0 33px 0;
 }
 /* Question*/
-
+.question{
+    overflow: auto;
+    height: 350px;
+}
 
 button{
     padding-bottom: 10px;
